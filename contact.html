@@ -32,8 +32,9 @@
                   and I'll try to respond in a day or two in the worst case.
                 </p>
               <div class="contact-form">
-                 <form id="contact-form" method="post" action="assets/php/contact.php" role="form">
-                   <div class="messages"></div>
+                 <form id="contact-form" action="https://formspree.io/inboxadeniyi@gmail.com" accept-charset="utf-8" method="POST" role="form">
+                  <input type="hidden" name="_subject" value="Contact Form">
+                  <div class="messages"></div>
                    <div class="controls">
                    <div class="row">
                        <div class="col-md-6">
@@ -55,7 +56,7 @@
                        <div class="col-md-6">
                            <div class="form-group">
                                <label for="form_email">Email *</label>
-                               <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                               <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                                <div class="help-block with-errors"></div>
                            </div>
                        </div>
